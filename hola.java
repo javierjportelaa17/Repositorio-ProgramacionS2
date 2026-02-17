@@ -15,7 +15,7 @@ public class hola {
     public static String mostrarFibonacci(int numero) {
         String result = "";
 
-        int fib = 0;
+        int fib = 1;
         int fib2 = 1;
 
         if (numero == 1) {
