@@ -31,7 +31,7 @@ public class repositorio {
         int j = 0;
 
         for (int i = 1; i <= numero; i++) {
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
                 numerosImpares[j++] = i;
             }
         }
